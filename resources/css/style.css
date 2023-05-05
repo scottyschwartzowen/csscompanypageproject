@@ -1,0 +1,146 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+img {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+ul {
+  text-align: right;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+/*Sizing*/
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main {
+  background-color: #bc544a;
+}
+
+/*Header Section*/
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  opacity: 0.9;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+.header li a {
+  color: #d7cd90;
+  font-size: 1.2rem;
+  padding: 20px;
+  font-family: "Libre Baskerville", sans-serif;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header img {
+  float: left;
+  width: 240px;
+}
+
+/*Banner*/
+.img-container {
+  background-image: url(../images/auditorium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: auto;
+}
+
+/*Main*/
+.main .container {
+  margin: auto;
+}
+
+.main img {
+  max-width: 700px;
+}
+
+/*Expertise Section*/
+.cards {
+  background-color: #bc544a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#expertise {
+  padding: 20px;
+  background-color: #bc544a;
+  margin: 0;
+  text-align: center;
+}
+
+.cards img {
+  margin: 20px auto;
+  height: 250px;
+  max-width: 700px;
+}
+
+/*Footer Section*/
+.footer {
+  background-color: black;
+  color: #d7cd90;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.footer h3 {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #d7cd90;
+  margin-bottom: 20;
+  margin-left: 20px;
+}
